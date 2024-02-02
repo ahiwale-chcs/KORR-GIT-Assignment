@@ -1,0 +1,136 @@
+# Copyright Korr Inc. All rights reserved.
+---
+boolean:
+  codes:
+    "N": "False"
+    "Y": "True"
+
+contact-variant: # do not edit codes
+  codes:
+    pers: Person
+    org: Organization
+
+country:
+  codes:
+    CA: Canada
+    US: United States
+    USA: United States of America
+
+marital-status:
+  codes:
+    S: Single
+    M: Married
+    D: Divorced
+    W: Widowed
+    L: Legally Separated
+    C: Common Law (Defacto)
+    X: Unknown
+
+payment-plan:
+  codes:
+    A: "Annual"
+    S: "Semi-Annual"
+    Q: "Quarterly"
+    M: "Monthly"
+
+policy-transaction:
+  codes:
+    change: Benefit Change
+    cancel: Cancel
+
+provider-status:
+  codes:
+    active: Active
+    terminated: Terminated
+
+provider-type:
+  codes:
+    doctor: Doctor
+    nursinghome: Nursing Home
+    hospital: Hospital
+    homehealthcareagency: Home Health Care Agency
+    lab: Laboratory
+    ems: Emergency Medical Services
+    medgroup: Medical Group
+    nursingsvcs: Nursing Services
+    medicalequip: Medical Equipment
+    diagsvcs: Diagnostic Services
+    pharmacy: Pharmacy
+    personalcaregiver: Personal Care Giver
+    mealsonwheels: Meals on Wheels
+    other: Other
+    unknown: Unknown
+
+state:
+  codes:
+    AL: Alabama
+    AK: Alaska
+    #AS: American Samoa
+    AZ: Arizona
+    AR: Arkansas
+    CA: California
+    CO: Colorado
+    CT: Connecticut
+    DE: Delaware
+    DC: District of Columbia
+    #FM: Federated States of Micronesia
+    FL: Florida
+    GA: Georgia
+    #GU: Guam
+    HI: Hawaii
+    ID: Idaho
+    IL: Illinois
+    IN: Indiana
+    IA: Iowa
+    KS: Kansas
+    KY: Kentucky
+    LA: Louisiana
+    ME: Maine
+    #MH: Marshall Islands
+    MD: Maryland
+    MA: Massachusetts
+    MI: Michigan
+    MN: Minnesota
+    MS: Mississippi
+    MO: Missouri
+    MT: Montana
+    NE: Nebraska
+    NV: Nevada
+    NH: New Hampshire
+    NJ: New Jersey
+    NM: New Mexico
+    NY: New York
+    NC: North Carolina
+    ND: North Dakota
+    #MP: Northern Mariana Islands
+    OH: Ohio
+    OK: Oklahoma
+    OR: Oregon
+    #PW: Palau
+    PA: Pennsylvania
+    #PR: Puerto Rico
+    RI: Rhode Island
+    SC: South Carolina
+    SD: South Dakota
+    TN: Tennessee
+    TX: Texas
+    UT: Utah
+    VT: Vermont
+    #VI: Virgin Islands
+    VA: Virginia
+    WA: Washington
+    WV: West Virginia
+    WI: Wisconsin
+    WY: Wyoming
+    AB: Alberta
+    BC: British Columbia
+    MB: Manitoba
+    NB: New Brunswick
+    NL: Newfoundland
+    NT: Northwest Territories
+    NS: Nova Scotia
+    NU: Nunavut
+    "ON": Ontario
+    PE: Prince Edward Island
+    QC: Quebec
+    SK: Saskatchewan
